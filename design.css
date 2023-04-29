@@ -1,0 +1,584 @@
+.hero {
+    width: 1518px; 
+    height: 840px;
+}
+
+/* .about {
+    background-color: black; 
+} */
+
+.logo {
+    width: 0px; 
+    height: 10px; 
+}
+
+.portrait {
+    width: 250px;;
+    height: 290px;
+  
+}
+
+.main_portrait {
+    width: 300px;
+    height: 400px; 
+   
+}
+
+.title {
+    position: absolute;
+    top: 470px;
+    left: 500px;
+    font-size: 80px;  
+    color: rgb(96,77,54);
+    font-family: vidaloka;
+}
+
+.title-bottom {
+    position: absolute;
+    top: 570px; 
+    left: 600px; 
+    font-size: 80px;
+    color: rgb(96,77,54);
+    font-family: vidaloka;
+}
+
+.cat {
+    font-family: vidaloka; 
+    font-size: 5rem; 
+    color: rgb(96,92,91);
+}
+
+.cat-p {
+    font-family: vidaloka; 
+    font-size: 1rem; 
+    color: rgb(96,92,91);
+}
+
+.sign-up {
+    background-color: rgb(154,129,100);
+    border: solid rgb(154,129,100);
+    font-family: Signika Negative; 
+    font-size: 1.15rem; 
+    color: white; 
+    border-radius: 20px; 
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+.nav-button {
+    margin-left: 1050px; 
+}
+
+.sign-up:hover {
+    animation: jump 1s forwards; 
+}
+
+.sign-up-bigger {
+    background-color: rgb(154,129,100);
+    border: solid rgb(154,129,100);
+    font-family: signika negative; 
+    font-size: 2.5rem;
+    color: white;
+    border-radius: 30px; 
+    padding-left: 12px; 
+    padding-right: 12px; 
+}
+
+.sign-up-bigger:hover {
+    animation: jump 1s forwards; 
+}
+
+.carousel-main {
+    background-color: grey; 
+    /* color: white; 
+    font-family: Signika Negative; 
+    font-size: 1.5rem;  */
+}
+
+.review-text {
+    color: rgb(96,77,54); 
+    font-weight: bold; 
+    font-family: Vidaloka; 
+    position: absolute;
+    font-size: 30px; 
+    z-index: 20;
+    top: 150px; 
+    /* left: 5px;  */
+    
+}
+
+.move-over {
+    top: 180px; 
+    left: 300px; 
+}
+
+.move-up {
+    top: 100px; 
+}
+.review-picture {
+    width: 650px;
+    filter: blur(2px);
+    opacity: .5;
+    height: 400px;  
+}
+
+#sign-up-modal {
+    background-color: rgb(96,77,54);
+}
+
+.card {
+    background-color: white;
+    color: rgb(157,158,162); 
+    padding-bottom: 10px; 
+    margin-bottom: 280px; 
+    width: 100%; 
+    border: solid black; 
+}
+
+.card:hover{
+    background-color:rgb(96, 92, 91);
+    color: white; 
+    animation: hover 1s forwards; 
+}
+
+ul {
+    list-style-type: none; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+}
+
+.price-title {
+    color: rgb(96, 92, 91);
+    font-family: signika negative; 
+    margin-bottom: 50px; 
+}
+
+.pricing {
+    margin-bottom: 10px; 
+}
+
+.upgrade {
+    font-family: vidaloka;
+    font-size: 3rem; 
+    color:white;
+
+}
+
+.upgrade-cont {
+    margin-bottom: 30px;
+    background-color: rgb(206,189,165);
+    position: absolute;
+    top: 530px;
+    left: 100px;
+    text-align: center; 
+    border-radius: 200px; 
+}
+
+.upgrade-text {
+    font-family: vidaloka;
+    font-size: 2.5rem; 
+    color:white;
+
+}
+
+.main{
+    padding: 30px; 
+}
+
+.nav-link {
+    font-family: signika negative; 
+}
+
+.about-cont {
+    background-color:rgb(206,189,165);
+    border-radius: 200px; 
+    margin-top: 20px; 
+}
+
+.about-head {
+    font-family: vidaloka;
+    font-size: 3rem; 
+    color:rgb(96, 92, 91);
+
+}
+
+.about-title {
+    font-family: vidaloka; 
+    color:white; 
+    font-size: 4rem;
+}
+
+.about-intro {
+    font-family: vidaloka; 
+    font-size: 1.8rem; 
+    color: white
+}
+
+.about-text {
+    font-size: 1.25rem;
+    color:rgb(96, 92, 91);
+    font-family: vidaloka; 
+}
+
+.about-pictures {
+    width: 600px; 
+    height: 400px; 
+}
+
+.about-btn {
+    margin-left: 480px; 
+    margin-top: 20px; 
+    margin-bottom: 40px; 
+}
+
+.about-bigger {
+    margin-bottom: 10px; 
+    margin-left: 680px; 
+
+}
+
+.saftey-container{
+    background-color: rgb(206,189,165);
+    border-radius: 200px;
+    padding: 30px; 
+}
+
+/* .bullet {
+    list-style-type: disc;
+} */
+
+.safety-title {
+    color: white;
+    font-family: vidaloka;
+    text-align: center; 
+    font-size: 3rem; 
+    margin-top: 10px; 
+}
+
+.safety-intro {
+    color: white;
+    font-family: vidaloka;
+    margin-left: 15px; 
+    margin-right: 15px; 
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+.safety-headers {
+    color: rgb(96, 92, 91); 
+    margin-left: 15px; 
+    font-family: vidaloka;
+    font-size: 2rem; 
+    text-align: center; 
+    margin-top: 15px; 
+}
+
+.safety-list {
+    color: rgb(96, 92, 91); 
+    margin-left: 10px;
+    font-family: vidaloka;
+}
+
+.list-item {
+    font-size: 1.5rem; 
+}
+
+.support-title {
+    font-family: vidaloka; 
+    font-size: 4rem; 
+    color: rgb(96,92,91);
+}
+
+.search input[type=text]{
+    width: 750px;
+    height: 60.5px;
+    border: solid black;
+}
+     
+.search{ 
+    margin-top: 50px;
+}
+     
+.search button{
+    background: #ddd;
+    padding: 18px 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute; 
+    left: 1040px; 
+    border-top: solid black;
+    border-right: solid black;
+    border-bottom: solid black; 
+    /* border: solid black;  */
+}
+
+.support-button {
+    border-radius: 5px;
+    background-color: rgb(214,221,48);
+    border: solid rgb(214,221,48);
+    padding: 10px; 
+    color: rgb(157,158,162); 
+    font-weight: bold; 
+    font-family: signika negative; 
+    font-size: 1.25rem;
+}
+
+.support-button-1 {
+    border-radius: 5px; 
+    background-color: rgb(214,221,48);
+    border: solid rgb(214,221,48);
+    padding-right: 60px; 
+    padding-left: 60px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: rgb(157,158,162);
+    font-weight: bold; 
+    font-family: signika negative; 
+    font-size: 1.25rem;  
+}
+
+.support-button-other {
+    border-radius: 5px;
+    background-color: rgb(243,192,75);
+    border: solid rgb(243,192,75);
+    padding-right: 35px; 
+    padding-left: 35px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: rgb(157,158,162);
+    font-weight: bold; 
+    font-family: signika negative; 
+    font-size: 1.25rem; 
+}
+
+.support-button-other-1 {
+    border-radius: 5px; 
+    background-color: rgb(243,192,75);
+    border: solid rgb(243, 192, 75);
+    padding-right: 70px; 
+    padding-left: 70px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: rgb(157,158,162);
+    font-weight: bold; 
+    font-family: signika negative; 
+    font-size: 1.25rem; 
+}
+
+.support-button:hover {
+    animation: jump 2s forwards;
+}
+
+.support-button-1:hover {
+    animation: jump 2s forwards;
+}
+
+.support-button-other-1:hover {
+    animation: jump 2s forwards;
+}
+
+.support-button-other:hover {
+    animation: jump 2s forwards;
+}
+
+.btn-cont {
+    margin-top: 300px; 
+}
+
+.modal {
+    background-color: rgb(157,158,162);
+}
+
+.modal-content {
+    background-color: black; 
+
+}
+
+.modal-title {
+    margin-right: 30px; 
+    color: white; 
+    font-size: 2.5rem;  
+    text-align: center;
+    margin-left: 160px; 
+}
+
+.disclaimer {
+    color: white; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn-close {
+    color: white; 
+    background-color: white; 
+}
+
+.modal-buttons {
+    border-radius: 30px; 
+    text-align: center;
+    background-color: black; 
+    color: white; 
+    border: solid white; 
+    padding: 10px; 
+    margin-left: 140px; 
+    margin-bottom: 8px; 
+}
+
+.app {
+    color: white; 
+    text-align: center;
+}
+
+@keyframes hover {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-20px);}
+}
+
+@keyframes jump {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-10px);}
+}
+
+@media  (max-width: 1200px) {
+    .hero {
+        width: 1200px; 
+        height: 550px;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero{
+        width: 750px; 
+        height: 400px; 
+    }
+
+    .title {
+        font-size: 2.5rem; 
+        top: 260px;
+        left: 300px; 
+    }
+
+    .title-bottom {
+        font-size: 3rem; 
+        top: 300px; 
+        left: 310px; 
+    }
+
+    .cat {
+        font-size: 2.5rem; 
+        text-align: center;
+    }
+
+    .cat-p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .first {
+        margin-left: 200px;
+        margin-bottom: 50px; 
+    }
+
+    .portrait {
+        width: 150px; 
+        height: 170px;
+    }
+
+    .main_portrait {
+        width: 200px; 
+        height: 250px; 
+    }
+
+    .review-text {
+        font-size: 20px; 
+        text-align: center; 
+    }
+
+    .card {
+        width: 300px; 
+        margin-top: 20px; 
+        margin-bottom: 10px; 
+        left: 130px; 
+    }
+
+    .pricing {
+        margin-left: 270px; 
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+    }
+
+    .upgrade-cont {
+        display: none; 
+    }
+
+    .about-title {
+        font-size: 2rem; 
+    }
+
+    .about-intro {
+        font-size: 1rem; 
+    }
+
+    .about-btn {
+        font-size: 20px; 
+        margin-left: 213px; 
+    }
+
+    .about-pictures {
+        width: 400px; 
+        height: 300px; 
+        margin-left: 50px; 
+    }
+
+    .about-bigger {
+        font-size: 2rem; 
+        margin-left: 280px; 
+    }
+
+    .support-title {
+        font-size: 3rem; 
+    }
+
+    .search input[type=text]{
+        width: 400px; 
+    }
+
+    .search button {
+        padding: 18px; 
+        left: 598px; 
+        top: 257px; 
+    }
+
+    .support-button {
+        display: none;
+    }
+
+    .support-button-1 {
+        display: none;
+    }
+
+    .support-button-other {
+        display: none;
+    }
+
+    .support-button-other-1 {
+        display: none; 
+    }
+
+    .safety-title {
+        font-size: 2rem; 
+    }
+
+    .safety-intro {
+        font-size: 1rem; 
+    }
+}
